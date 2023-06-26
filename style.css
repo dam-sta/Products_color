@@ -1,0 +1,130 @@
+*{
+    background-color:aqua;
+    border: 2px solid black;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    border-left: 0px;
+}
+
+img{
+    border-radius: 80%;
+    margin: 20px;
+}
+
+nav{
+    height: 42px;
+    border: 0px;
+}
+
+section{
+    width: 20%;
+    float: left;
+    height: 100%;
+    border-top: 0px;
+    border-left: 0px;
+}
+
+main{
+    width: 79%;
+    float: right;
+    height: 90%;
+    display: block;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+footer{
+    float: right;
+    width: 79%;
+    height: 10%;
+    display: block;
+    text-align: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+
+.container{
+    width: 100%;
+    overflow: auto;
+
+}
+
+.nav1{
+    float: left;
+    width: 250px;
+    height: 30px;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 2px;
+    margin-top: 5px;
+    border: 0px;
+}
+
+ul:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+ul:hover li{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+li{
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.table1{
+    border: 0px;
+    text-align:center;
+}
+
+table{
+    width: 100%;
+    max-width: 75%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+body, html{
+    border: 0px;
+}
+
+a:hover {
+    clear: both;
+    background-color: yellow;
+}
+
+a{
+    border: 0px;
+}
+
+form, label{
+    border: 0px;
+}
+
+.cont{
+    border: 0px;
+}
+
+
+
+
